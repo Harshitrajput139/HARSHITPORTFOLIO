@@ -44,9 +44,9 @@ h3 {
 nav .hero1 {
   display: flex;
   align-items: center;
-  
+  justify-content: center;
   gap: 50px;
-  
+  justify-content: space-between;
   text-decoration: none;
 }
 span {
@@ -500,13 +500,10 @@ h2 span {
 }
 
 @media (max-width: 768px) {
-
-  /* Hide nav links on mobile */
   nav .hero1 {
     display: none;
   }
 
-  /* Hero layout */
   .container {
     flex-direction: column;
     padding: 60px 20px;
@@ -517,32 +514,6 @@ h2 span {
     padding-left: 0;
   }
 
-  h3 {
-    font-size: 28px;
-    padding-top: 40px;
-  }
-
-  h5 {
-    font-size: 20px;
-    line-height: 1.4;
-  }
-
-  .intro-text {
-    font-size: 15px;
-    line-height: 1.6;
-  }
-
-  span {
-    padding-left: 6px;
-  }
-
-  .container div img {
-    height: 180px;
-    margin-right: 0;
-    margin-top: 20px;
-  }
-
-  /* Projects */
   .project-frame {
     flex-direction: column;
     padding: 25px;
@@ -552,7 +523,6 @@ h2 span {
     width: 100%;
   }
 
-  /* Section headings */
   h2 {
     padding-left: 0;
     text-align: center;
