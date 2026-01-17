@@ -499,3 +499,35 @@ h2 span {
     border-top: 1px solid #333;
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 768px) {
+  nav .hero1 {
+    display: none;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  h3, h5, .intro-text, .social-links {
+    padding-left: 0;
+  }
+
+  .project-frame {
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  .project-image img {
+    width: 100%;
+  }
+
+  h2 {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+>>>>>>> parent of 3304c2b (Final responsive)
